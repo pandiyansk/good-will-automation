@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 3000,
       host: '0.0.0.0',
-      allowedHosts: ['v-2-qtzo.onrender.com'], // ✅ Added this line
+      allowedHosts: ['goodwill-automation.onrender.com'], // ✅ Added this line
     },
     plugins: [react()],
     define: {
