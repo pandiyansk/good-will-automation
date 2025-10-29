@@ -57,7 +57,7 @@ const Header: React.FC = () => {
           <NavLink to="/" className="flex items-center space-x-2">
               {/* Logo Image replacing the "G" */}
               <img
-                src="/assist/brand/Logo_nav.jpg"  // 🔹 update with your actual logo path
+                src="./pages/public/brand/Logo_nav.jpg"  // 🔹 update with your actual logo path
                 alt="Goodwill Automation Logo"
                 className="w-10 h-10 rounded-md object-contain bg-white p-1"
               />

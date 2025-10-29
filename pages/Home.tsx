@@ -47,7 +47,7 @@ const Home: React.FC = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover"
           >
-            <source src="/assist/bg_video/v1.mp4" type="video/mp4" />
+            <source src="./pages/public/bg_video/v1.mp4" type="video/mp4" />
           </video>
           {/* 🔹 Overlay tint for opacity */}
           <div className="absolute inset-0 bg-brand-blue/80" />

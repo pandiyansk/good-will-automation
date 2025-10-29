@@ -9,7 +9,9 @@ export const NAV_LINKS: NavLink[] = [
   { name: 'Contact', path: '/contact' },
 ];
 
-export const CATALOGUE_URL = './assist/Doc_pdf/GW.pdf';
+// export const CATALOGUE_URL = '../pages/public/Doc_pdf/GW.pdf';
+export const CATALOGUE_URL = './pages/public/Doc_pdf/GW.pdf';
+
 
 export const INDUSTRY_SOLUTIONS: IndustrySolution[] = [
   { icon: 'factory', iconBgColor: 'bg-blue-100 text-blue-600', title: 'Factory Automation', description: 'PLC, VFD, HMI, and Servo Drive systems for complete automation' },
@@ -21,19 +23,19 @@ export const INDUSTRY_SOLUTIONS: IndustrySolution[] = [
 ];
 
 export const BRAND_PARTNERS: Brand[] = [
-    { logo: '/assist/brand/delta.png', name: 'Delta Electronics', description: 'PLC & Automation Solutions' },
-    { logo: '/assist/brand/mitsubishi.png', name: 'Mitsubishi Electric', description: 'Factory Automation & CNC' },
-    { logo: '/assist/brand/schneider-electric.png', name: 'Schneider Electric', description: 'Energy Management' },
-    { logo: '/assist/brand/siemens.png', name: 'Siemens', description: 'Industrial Automation' },
-    { logo: '/assist/brand/invt.png', name: 'INVT', description: 'Energy Saving Solutions' },
-    { logo: '/assist/brand/inovance.png', name: 'INOVANCE', description: 'Drive Technology' },
-    { logo: '/assist/brand/skf.png', name: 'SKF', description: 'Bearing Solutions' },
-    { logo: '/assist/brand/ntn.png', name: 'NTN', description: 'Precision Bearings' },
-    { logo: '/assist/brand/smc.png', name: 'SMC', description: 'Pneumatic Solutions' },
-    { logo: '/assist/brand/abb.png', name: 'ABB', description: 'Power & Automation Technologies' },
-    { logo: '/assist/brand/airtech.png', name: 'Airtech', description: 'Pneumatic Components' },
-    { logo: '/assist/brand/goodwill.png', name: 'Goodwill', description: 'Automation & Service' },
-    { logo: '/assist/brand/goodwill.png', name: 'Goodwill Automation', description: 'Transformers & Power Solutions' },
+    { logo: './pages/public/brand/delta.png', name: 'Delta Electronics', description: 'PLC & Automation Solutions' },
+    { logo: './pages/public/brand/mitsubishi.png', name: 'Mitsubishi Electric', description: 'Factory Automation & CNC' },
+    { logo: './pages/public/brand/schneider-electric.png', name: 'Schneider Electric', description: 'Energy Management' },
+    { logo: './pages/public/brand/siemens.png', name: 'Siemens', description: 'Industrial Automation' },
+    { logo: './pages/public/brand/invt.png', name: 'INVT', description: 'Energy Saving Solutions' },
+    { logo: './pages/public/brand/inovance.png', name: 'INOVANCE', description: 'Drive Technology' },
+    { logo: './pages/public/brand/skf.png', name: 'SKF', description: 'Bearing Solutions' },
+    { logo: './pages/public/brand/ntn.png', name: 'NTN', description: 'Precision Bearings' },
+    { logo: './pages/public/brand/smc.png', name: 'SMC', description: 'Pneumatic Solutions' },
+    { logo: './pages/public/brand/abb.png', name: 'ABB', description: 'Power & Automation Technologies' },
+    { logo: './pages/public/brand/airtech.png', name: 'Airtech', description: 'Pneumatic Components' },
+    { logo: './pages/public/brand/goodwill.png', name: 'Goodwill', description: 'Automation & Service' },
+    { logo: './pages/public/brand/goodwill.png', name: 'Goodwill Automation', description: 'Transformers & Power Solutions' },
 ];
 
 export const CORE_VALUES: CoreValue[] = [
@@ -125,7 +127,7 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
 export const PROJECTS: Project[] = [
     {
         id: 1,
-        image: '/assist/Projects gallery/Robotic Food Packaging Line.png',
+        image: './pages/public/Projects gallery/Robotic Food Packaging Line.png',
         category: 'Factory Automation',
         year: 2024,
         location: 'Mumbai, Maharashtra',
@@ -135,7 +137,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 2,
-        image: '/assist/Projects gallery/Custom PLC Control Panel.png',
+        image: './pages/public/Projects gallery/Custom PLC Control Panel.png',
         category: 'Control Panels',
         year: 2024,
         location: 'Pune, Maharashtra',
@@ -145,7 +147,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 3,
-        image: '/assist/Projects gallery/Heavy Equipment.png',
+        image: './pages/public/Projects gallery/Heavy Equipment.png',
         category: 'Installations',
         year: 2023,
         location: 'Nagpur, Maharashtra',
@@ -155,7 +157,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 4,
-        image: '/assist/Projects gallery/Pharmaceutical Cleanroom.png',
+        image: './pages/public/Projects gallery/Pharmaceutical Cleanroom.png',
         category: 'Factory Automation',
         year: 2023,
         location: 'Hyderabad, Telangana',
@@ -165,7 +167,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 5,
-        image: '/assist/Projects gallery/Rooftop Solar Power Plant.png',
+        image: './pages/public/Projects gallery/Rooftop Solar Power Plant.png',
         category: 'Energy Solutions',
         year: 2023,
         location: 'Jaipur, Rajasthan',
@@ -175,7 +177,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 6,
-        image: '/assist/Projects gallery/Textile Spinning Mill Modernization.png',
+        image: './pages/public/Projects gallery/Textile Spinning Mill Modernization.png',
         category: 'Factory Automation',
         year: 2022,
         location: 'Coimbatore, Tamil Nadu',
@@ -185,7 +187,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 7,
-        image: '/assist/Projects gallery/PLC & HMI Training Systems.png',
+        image: './pages/public/Projects gallery/PLC & HMI Training Systems.png',
         category: 'Control Panels',
         year: 2022,
         location: 'Bangalore, Karnataka',
@@ -195,7 +197,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 8,
-        image: '/assist/Projects gallery/Motor Control Center (MCC) Panel.png',
+        image: './pages/public/Projects gallery/Motor Control Center (MCC) Panel.png',
         category: 'Control Panels',
         year: 2022,
         location: 'Chennai, Tamil Nadu',
@@ -205,7 +207,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 9,
-        image: '/assist/Projects gallery/Automotive Component Assembly.png',
+        image: './pages/public/Projects gallery/Automotive Component Assembly.png',
         category: 'Factory Automation',
         year: 2024,
         location: 'Gurgaon, Haryana',
@@ -215,7 +217,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 10,
-        image: '/assist/Projects gallery/Electronics PCB Assembly Line.png',
+        image: './pages/public/Projects gallery/Electronics PCB Assembly Line.png',
         category: 'Factory Automation',
         year: 2023,
         location: 'Sanand, Gujarat',
@@ -319,22 +321,22 @@ export const INDUSTRIES_SERVED: IndustryService[] = [
 ];
 
 export const TRUSTED_PARTNERS: Partner[] = [
-  { logo: '/assist/brand/delta.png', name: 'Delta Electronics' },
-  { logo: '/assist/brand/mitsubishi.png', name: 'Mitsubishi Electric' },
-  { logo: '/assist/brand/schneider-electric.png', name: 'Schneider Electric' },
-  { logo: '/assist/brand/siemens.png', name: 'Siemens' },
-  { logo: '/assist/brand/inovance.png', name: 'Inovance' },
-  { logo: '/assist/brand/invt.png', name: 'INVT' },
-  { logo: '/assist/brand/abb.png', name: 'ABB' },
-  { logo: '/assist/brand/weg.png', name: 'WEG' },
-  { logo: '/assist/brand/skf.png', name: 'SKF' },
-  { logo: '/assist/brand/ntn.png', name: 'NTN' },
-  { logo: '/assist/brand/janatics.png', name: 'Janatics' },
-  { logo: '/assist/brand/smc.png', name: 'SMC' },
-  { logo: '/assist/brand/airtech.png', name: 'Airtech' },
-  { logo: '/assist/brand/omron.png', name: 'Omron' },
-  { logo: '/assist/brand/polycab.png', name: 'Polycab' },
-  { logo: '/assist/brand/v-guard.png', name: 'V-Guard' },
+  { logo: './pages/public/brand/delta.png', name: 'Delta Electronics' },
+  { logo: './pages/public/brand/mitsubishi.png', name: 'Mitsubishi Electric' },
+  { logo: './pages/public/brand/schneider-electric.png', name: 'Schneider Electric' },
+  { logo: './pages/public/brand/siemens.png', name: 'Siemens' },
+  { logo: './pages/public/brand/inovance.png', name: 'Inovance' },
+  { logo: './pages/public/brand/invt.png', name: 'INVT' },
+  { logo: './pages/public/brand/abb.png', name: 'ABB' },
+  { logo: './pages/public/brand/weg.png', name: 'WEG' },
+  { logo: './pages/public/brand/skf.png', name: 'SKF' },
+  { logo: './pages/public/brand/ntn.png', name: 'NTN' },
+  { logo: './pages/public/brand/janatics.png', name: 'Janatics' },
+  { logo: './pages/public/brand/smc.png', name: 'SMC' },
+  { logo: './pages/public/brand/airtech.png', name: 'Airtech' },
+  { logo: './pages/public/brand/omron.png', name: 'Omron' },
+  { logo: './pages/public//brand/polycab.png', name: 'Polycab' },
+  { logo: './pages/public/brand/v-guard.png', name: 'V-Guard' },
 ];
 
 
@@ -342,7 +344,7 @@ export const DELTA_PRODUCTS: DeltaProduct[] = [
   {
     name: 'PLC SYSTEM',
     fullName: 'Programmable Logic Controller',
-    image: '/assist/product/plc system.png',
+    image: './pages/public/product/plc system.png',
     models: [
       'DVP1422',
       'DVP12SA',
@@ -355,7 +357,7 @@ export const DELTA_PRODUCTS: DeltaProduct[] = [
   {
     name: 'TOUCH PANEL SYSTEM (HMI)',
     fullName: 'Human-Machine Interface',
-    image: '/assist/product/touch panel system.png',
+    image: './pages/public/product/touch panel system.png',
     subCategories: [
       {
         title: '4.3 INCH',
@@ -374,7 +376,7 @@ export const DELTA_PRODUCTS: DeltaProduct[] = [
   {
     name: 'SERVO MOTOR & DRIVE',
     fullName: 'High-precision AC Servo Systems',
-    image: '/assist/product/servo motor and drive.png',
+    image: './pages/public/product/servo motor and drive.png',
     models: [
       'ASDA-A2',
       'ASDA-A3',
@@ -386,7 +388,7 @@ export const DELTA_PRODUCTS: DeltaProduct[] = [
   {
     name: 'AC DRIVE (VFD)',
     fullName: 'Variable Frequency Drive',
-    image: '/assist/product/ac motor(vf).png',
+    image: './pages/public/product/ac motor(vf).png',
     subCategories: [
       {
         title: 'VFD - EL-W SERIES',
@@ -416,25 +418,25 @@ export const INOVANCE_PRODUCTS: DeltaProduct[] = [
   {
     name: 'Variable Frequency Drive (VFD)',
     fullName: 'Advanced motor control for energy savings',
-    image: '/assist/product/variable freguency drive(vfd).png',
+    image: './pages/public/product/variable freguency drive(vfd).png',
     description: 'Inovance offers a comprehensive portfolio of Variable Frequency Drives (VFDs) designed for robust performance and energy efficiency across a wide range of industrial applications.'
   },
   {
     name: 'Programmable Logic Controller (PLC)',
     fullName: 'Reliable logic control for automation',
-    image: '/assist/product/programmable logic controller(plc).png',
+    image: './pages/public/product/programmable logic controller(plc).png',
     description: 'Inovance PLCs provide reliable and scalable control solutions, enabling seamless automation for machinery and production lines with easy-to-use programming software.'
   },
   {
     name: 'Human Machine Interface (HMI)',
     fullName: 'Intuitive operator interface panels',
-    image: '/assist/product/human machine interface()hmi.png',
+    image: './pages/public/product/human machine interface()hmi.png',
     description: 'With high-resolution displays and user-friendly interfaces, Inovance HMIs offer clear visualization and simplified operation for complex industrial processes.'
   },
   {
     name: 'AC Servo Drive and Motor',
     fullName: 'Precision motion control for dynamic applications',
-    image: '/assist/product/ac servo  drive and motor.png',
+    image: './pages/public/product/ac servo  drive and motor.png',
     description: 'Engineered for high-performance applications, Inovance AC Servo Drives and Motors deliver exceptional accuracy, speed, and a dynamic response for advanced motion control.'
   }
 ];
@@ -443,25 +445,25 @@ export const INVT_PRODUCTS: DeltaProduct[] = [
   {
     name: 'Variable Frequency Drive (VFD)',
     fullName: 'Efficient and reliable motor control solutions',
-    image: '/assist/product/variable freguency drive(vfd).png',
+    image: './pages/public/product/variable freguency drive(vfd).png',
     description: 'INVT provides a wide range of VFDs that offer high performance, reliability, and energy savings for various industrial motor applications.'
   },
   {
     name: 'Programmable Logic Controller (PLC)',
     fullName: 'Flexible automation for industrial processes',
-    image: '/assist/product/programmable logic controller(plc).png',
+    image: './pages/public/product/programmable logic controller(plc).png',
     description: 'INVT\'s PLCs deliver robust and scalable control solutions, designed for seamless integration and reliable operation in complex automation systems.'
   },
   {
     name: 'Human Machine Interface (HMI)',
     fullName: 'Intuitive control and visualization',
-    image: '/assist/product/human machine interface()hmi.png',
+    image: './pages/public/product/human machine interface()hmi.png',
     description: 'Featuring high-resolution touchscreens and user-friendly software, INVT HMIs provide clear and intuitive interfaces for machine and process control.'
   },
   {
     name: 'AC Servo Drive and Motor',
     fullName: 'Precision motion for demanding applications',
-    image: '/assist/product/servo motor and drive.png',
+    image: './pages/public/product/servo motor and drive.png',
     description: 'INVT\'s AC Servo Drives and Motors are engineered for high-precision motion control, offering excellent dynamic response, accuracy, and reliability.'
   }
 ];
@@ -470,25 +472,25 @@ export const SCHNEIDER_PRODUCTS: DeltaProduct[] = [
   {
     name: 'PLC - PANEL',
     fullName: 'Programmable Logic Controller Panels',
-    image: '/assist/product/plc panel.png',
+    image: './pages/public/product/plc panel.png',
     description: 'Custom-built PLC panels for seamless automation and control, integrating high-quality Schneider Electric components for reliability and performance.'
   },
   {
     name: 'VFD - PANEL',
     fullName: 'Variable Frequency Drive Panels',
-    image: '/assist/product/vfd-panel.png',
+    image: './pages/public/product/vfd-panel.png',
     description: 'Energy-efficient VFD panels designed for precise motor speed control, reducing energy consumption and mechanical stress on your equipment.'
   },
   {
     name: 'MCC - PANEL',
     fullName: 'Motor Control Center Panels',
-    image: '/assist/product/mcc panel.png',
+    image: './pages/public/product/mcc panel.png',
     description: 'Centralized motor control solutions for industrial processes, ensuring reliable operation and protection for all your motors in a compact, organized system.'
   },
   {
     name: 'RTU PANEL',
     fullName: 'Remote Terminal Unit Panels',
-    image: '/assist/product/rtu panel.png',
+    image: './pages/public/product/rtu panel.png',
     description: 'RTU panels for remote monitoring and control of assets, providing a critical link for SCADA systems in utilities, infrastructure, and industrial facilities.'
   }
 ];
@@ -497,7 +499,7 @@ export const ABB_PRODUCTS: DeltaProduct[] = [
     {
         name: 'INDUSTRIAL MOTORS',
         fullName: 'High-Efficiency Industrial Electric Motors',
-        image: '/assist/product/indutrial motor.png',
+        image: './pages/public/product/indutrial motor.png',
         models: [
             'IE2 MOTOR',
             'IE3 MOTOR',
@@ -513,7 +515,7 @@ export const WEG_PRODUCTS: DeltaProduct[] = [
     {
         name: 'AC MOTORS',
         fullName: 'High-Efficiency Industrial AC Motors',
-        image: '/assist/product/ac motor.png',
+        image: './pages/public/product/ac motor.png',
         models: [
             'IEC',
             'IE2 MOTOR',
@@ -528,7 +530,7 @@ export const SIEMENS_PRODUCTS: DeltaProduct[] = [
     {
         name: 'SIEMENS MOTORS',
         fullName: 'High-Performance Industrial Motors',
-        image: '/assist/product/siemens motor.png',
+        image: './pages/public/product/siemens motor.png',
         description: 'A wide range of motors available from 0.25 to 75 hp, including 1-Phase, 3-Phase, and Brake motors.',
         models: [
             '1LA8 N - COMPACT MOTORS 355 - 500 FRAME (IE3)',
@@ -543,7 +545,7 @@ export const HIWIN_PRODUCTS: DeltaProduct[] = [
   {
     name: 'BALL SCREW',
     fullName: 'Precision Motion Control Components',
-    image: '/assist/product/ball screw.png',
+    image: './pages/public/product/ball screw.png',
     models: [
       'HEAVY LOAD DRIVE SERIES',
       'PRECISION GROUND SERIES',
@@ -554,7 +556,7 @@ export const HIWIN_PRODUCTS: DeltaProduct[] = [
   {
     name: 'LINER GUIDEWAY',
     fullName: 'High-Accuracy Linear Guideways',
-    image: '/assist/product/linear guide way.png',
+    image: './pages/public/product/linear guide way.png',
     models: [
       'E2 SERIES',
       'EG SERIES',
@@ -568,7 +570,7 @@ export const ZD_PRODUCTS: DeltaProduct[] = [
     {
         name: 'ZD MOTOR & GEARBOX',
         fullName: 'Specialized Mini AC & DC Gear Motors',
-        image: '/assist/product/zd  motor and gear boxes.png',
+        image: './pages/public/product/zd  motor and gear boxes.png',
         description: 'ZD MOTOR is specialized in mini AC gear motors, offering a wide range of solutions including gear motors, three-phase motors, speed control motors, brake motors, torque motors, and DC gear motors.',
         models: [
             'Gear motors',
@@ -585,7 +587,7 @@ export const JANATICS_PRODUCTS: DeltaProduct[] = [
     {
         name: 'JANATICS PNEUMATIC',
         fullName: 'Comprehensive Pneumatic & Solenoid Solutions',
-        image: '/assist/product/janatics pneumatic.png',
+        image: './pages/public/product/janatics pneumatic.png',
         models: [
             'AIR CYLINDERS',
             'PNEUMATIC SYSTEM',
@@ -601,7 +603,7 @@ export const SMC_PRODUCTS: DeltaProduct[] = [
     {
         name: 'ISO STANDARD CYLINDERS',
         fullName: 'Double Acting Pneumatic Cylinders',
-        image: '/assist/product/iso standard cylinder.png',
+        image: './pages/public/product/iso standard cylinder.png',
         models: [
             '(A27 - Magnetic, A28 Non Magnetic)',
             '(A16 - Non Magnetic, A17 Magnetic)',
@@ -616,7 +618,7 @@ export const AIRTEC_PRODUCTS: DeltaProduct[] = [
     {
         name: 'Pneumatic Cylinders, Tubes & Units',
         fullName: 'High-Performance Pneumatic Components',
-        image: '/assist/product/pneumatic cylinnder,tubeand ,unit.webp',
+        image: './pages/public/product/pneumatic cylinnder,tubeand ,unit.webp',
         models: [
             'COMPACT GUIDED CYLINDER',
             'AIR PREPARATION UNIT FRL SERIES',
@@ -628,7 +630,7 @@ export const AIRTEC_PRODUCTS: DeltaProduct[] = [
     {
         name: 'Pneumatic Valves & Actuators',
         fullName: 'Precision Control for Pneumatic Systems',
-        image: '/assist/product/plc system.png',
+        image: './pages/public/product/plc system.png',
         models: [
             'PNEUMATIC ACTUATORS',
             'BUTTERFLY VALVES',
@@ -643,7 +645,7 @@ export const GOODWILL_AUTOMATION_PRODUCTS: DeltaProduct[] = [
   {
     name: 'TRANSFORMERS',
     fullName: 'Industrial Power Transformers',
-    image: '/assist/product/Gemini_Generated_Image_kbualmkbualmkbua.png', // Placeholder, replace with actual transformer image
+    image: './pages/public/product/Gemini_Generated_Image_kbualmkbualmkbua.png', // Placeholder, replace with actual transformer image
     description: 'High-efficiency power transformers for various industrial applications, ensuring stable and reliable power supply.',
     models: [
       'DISTRIBUTION TRANSFORMERS',
@@ -679,79 +681,79 @@ export const NAV_MENU_BRANDS: NavBrand[] = [
   {
     id: 'delta-electronics',
     name: 'Delta Electronics',
-    logo: '/assist/brand/delta.png',
+    logo: './pages/public/brand/delta.png',
     products: DELTA_PRODUCTS
   },
   {
     id: 'inovance',
     name: 'Inovance',
-    logo: '/assist/brand/inovance.png',
+    logo: './pages/public/brand/inovance.png',
     products: INOVANCE_PRODUCTS
   },
   {
     id: 'invt',
     name: 'INVT',
-    logo: '/assist/brand/invt.png',
+    logo: './pages/public/brand/invt.png',
     products: INVT_PRODUCTS
   },
   {
     id: 'schneider-electric',
     name: 'Schneider Electric',
-    logo: '/assist/brand/schneider-electric.png',
+    logo: './pages/public/brand/schneider-electric.png',
     products: SCHNEIDER_PRODUCTS
   },
   {
     id: 'abb',
     name: 'ABB',
-    logo: '/assist/brand/abb.png',
+    logo: './pages/public/brand/abb.png',
     products: ABB_PRODUCTS
   },
     {
     id: 'weg',
     name: 'WEG',
-    logo: '/assist/brand/weg.png',
+    logo: './pages/public/brand/weg.png',
     products: WEG_PRODUCTS
   },
   {
     id: 'siemens',
     name: 'Siemens',
-    logo: '/assist/brand/siemens.png',
+    logo: './pages/public/brand/siemens.png',
     products: SIEMENS_PRODUCTS
   },
     {
     id: 'hiwin',
     name: 'HIWIN',
-    logo: '/assist/brand/hiwin.png',
+    logo: './pages/public/brand/hiwin.png',
     products: HIWIN_PRODUCTS
   },
     {
     id: 'zd',
     name: 'ZD',
-    logo: '/assist/brand/zd.png',
+    logo: './pages/public/brand/zd.png',
     products: ZD_PRODUCTS
   },
     {
     id: 'janatics',
     name: 'Janatics',
-    logo: '/assist/brand/janatics.png',
+    logo: './pages/public/brand/janatics.png',
     products: JANATICS_PRODUCTS
   },
     {
     id: 'smc',
     name: 'SMC',
-    logo: '/assist/brand/smc.png',
+    logo: './pages/public/brand/smc.png',
     products: SMC_PRODUCTS
   },
   {
     id: 'airtec',
     name: 'Airtec',
-    logo: '/assist/brand/airtech.png',
+    logo: './pages/public/brand/airtech.png',
     products: AIRTEC_PRODUCTS
   },
   {
     id: 'goodwill-automation',
     name: 'Goodwill Automation',
-    logo: '/assist/brand/goodwill.png',
+    logo: './pages/public/brand/goodwill.png',
     products: GOODWILL_AUTOMATION_PRODUCTS
   },
 ];
